@@ -23,13 +23,13 @@
     </RelativeLayout>
 
     <Button
+        android:id="@+id/btnRollTheDice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Roll the dice"
         android:background="#cc0066"
-        android:textColor="#ffffff"
+        android:text="Roll the dice"
 
-        />
+        android:textColor="#ffffff" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,17 +38,18 @@
         android:gravity="center">
 
         <ImageView
+            android:id="@+id/imgDice1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/dice1"
-            android:layout_weight="50">
-        </ImageView>
+            android:layout_weight="50"
+            android:src="@drawable/dice1"></ImageView>
+
         <ImageView
+            android:id="@+id/imgDice2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/dice2"
-            android:layout_weight="50">
-        </ImageView>
+            android:layout_weight="50"
+            android:src="@drawable/dice2"></ImageView>
 
 
     </LinearLayout>
